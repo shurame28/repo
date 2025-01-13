@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    
+    font-family: 'Poppins', sans-serif;
+    }.header{
+        height: 500px;
+        width: 100%;
+        border: 1px solid black;
+        background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/dumbbell-1966247_1280.jpg);
+        background-size: cover;
+      
+    }
+    /* Basic Navbar Style */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .navbar {
+        background-color: transparent;
+        padding: 10px 0;
+        margin-top: 40px;
+      }
+      
+      .nav-list {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .nav-item {
+        margin: 0 15px;
+      }
+      
+      .nav-item a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 8px 16px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .nav-item a:hover {
+       color: blanchedalmond;
+      }
+    .logo {
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+    
+        margin-left: 150px;
+        /* margin-top: 60px; */
+    
+    }
+    .fa-dumbbell{
+        color: blanchedalmond;
+    }
+    .text-box{
+    
+        height: 400px;
+        width: 900px;
+        margin-top: 50px;
+        margin-left: 300px;
+    }
+    .text-box h1 {
+        font-size: 50px;
+        color: blanchedalmond;
+    text-align: center;
+    
+    }
+    .sub-head{
+        height: 500px;
+    
+    }
+    .main1 {
+        height: 400px;
+    
+    width: 42%;
+    font-weight: 300;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 50px;
+    /* text-align: center; */
+    float: right;
+    
+    }
+
+    .main2{
+        height: 400px;
+    
+        width: 42%;
+        font-weight: 300;
+        margin-left: 0px;
+        margin-right: 100px;
+        margin-top: 50px;
+        text-align: center;
+        float: right;
+        border-radius: 50px;
+        background-image: url(../images/pexels-victorfreitas-841130.jpg);
+        background-size: cover;
+    }
+    .main2 p{
+   margin-left: 50px;
+    }
+    .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    height: 90px;
+        bottom: 0;
+        width: 100%;
+      }
+      
+      .footer p {
+        margin: 0;
+        font-size: 14px;
+        margin-top: 50px;
+      }
